@@ -1,4 +1,9 @@
 # Obstacle-Avoiding Robot with GoPiGo3 and Ultrasonic Sensors
+## Collaborateurs 
+- Pallavi Bhowaneedin
+- William Laguette
+- Vayuna Ballah
+- Yogheswar Surjoo
 
 ## Introduction
 This project involves building a robot using the GoPiGo3 robot platform that can use 3 ultrasonic sensors to detect obstacles in its path and try to avoid them.
