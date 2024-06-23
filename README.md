@@ -11,25 +11,22 @@ This project involves building a robot using the GoPiGo3 robot platform that can
 
 
 ## Setup and Installation
-1. **Assemble the GoPiGo3 Robot**:
-    - Follow the instructions provided with the GoPiGo3 kit to assemble the robot.
-
-2. **Install Libraries**:
+1. **Install Libraries**:
     ```bash
     sudo pip3 install easygopigo3
     sudo apt-get install python3-rpi.gpio
     ```
 
-3. **Wire the Ultrasonic Sensors**:
+2. **Wire the Ultrasonic Sensors**:
     - Connect the TRIG and ECHO pins of the ultrasonic sensors to the GPIO pins on the Raspberry Pi as described in the code.
 
-4. **Clone the Repository**:
+3. **Clone the Repository**:
     ```bash
     git clone https://github.com/yourusername/obstacle-avoiding-robot.git
     cd obstacle-avoiding-robot
     ```
 
-5. **Run the Code**:
+4. **Run the Code**:
     ```bash
     python3 obstacle_avoiding_robot.py
     ```
@@ -56,5 +53,3 @@ This project involves building a robot using the GoPiGo3 robot platform that can
 - **Main Loop**:
     - Continuously measures distances from the sensors.
     - Stops and makes decisions based on the distances detected, such as turning or backtracking.
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
